@@ -69,10 +69,10 @@
 
 ## Getting Started
 
-```bash
+<!--  ```bash
 git clone https://github.com/yourusername/project-name.git
 cd project-name
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run app.py -->
