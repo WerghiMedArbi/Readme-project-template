@@ -1,83 +1,78 @@
-# 🚀 Project Title Here
+# Project Title Here
 
-> One-sentence summary of what the project does and who it's for.
+<!-- One-sentence summary of what the project does and who it's for. -->
+<!-- Example: A dashboard that visualizes global energy consumption in real-time. -->
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Demo](#demo)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Screenshots](#screenshots)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
 - [Results](#results)
-- [Future Work](#future-work)
-- [Contributors](#contributors)
-- [License](#license)
+- [Getting Started](#getting-started)
+
 
 ---
 
-## 🧠 Overview
+## Overview
 
-Brief description of the project:
-
-- What problem it solves
-- Who it helps
-- What data is used
-- Any key innovations (e.g. AI, visualization, scraping)
+<!-- Describe the problem, solution, and motivation behind the project. -->
+<!-- Example: This project analyzes Reddit comments to detect early signs of depression using NLP techniques. -->
 
 ---
 
-## 🎥 Demo
+## Demo
 
-> 📽️ **Live Demo**: [Link to Streamlit / Power BI / Web App]  
-> 📂 **Presentation**: [Link to video / slides]  
-> 📎 **Dataset**: [Link to Kaggle / data source]
-
----
-
-## ✨ Features
-
-- ✅ Feature 1 – e.g. Real-time sentiment analysis
-- ✅ Feature 2 – e.g. Interactive dashboard
-- ✅ Feature 3 – e.g. Model predictions with explanations
+<!-- Add links to deployed app, YouTube demo, or presentation -->
+<!-- Example: https://yourapp.streamlit.app -->
 
 ---
 
-## 🧰 Tech Stack
+## Features
 
-**Languages & Libraries**  
-`Python` `FastAPI` `Scikit-learn` `Pandas` `NLTK` `Plotly` `TensorFlow`  
-
-**Tools**  
-`VSCode` `Git` `Streamlit` `Firebase` `Power BI` `Figma` `Docker`  
-
----
-
-## 📸 Screenshots
-
-| Feature | Preview |
-|--------|---------|
-| Dashboard Example | ![screenshot](assets/dashboard.png) |
-| Model Output | ![screenshot](assets/model_output.png) |
+<!-- List main features -->
+<!-- Example:
+- Sentiment analysis in real time
+- Interactive filters by keyword or date
+- Downloadable CSV reports
+-->
 
 ---
 
-## 🚀 Getting Started
+## Tech Stack
+
+<!-- List programming languages, libraries, frameworks, tools -->
+<!-- Example: Python, Pandas, Streamlit, HuggingFace Transformers -->
+
+---
+
+## Screenshots
+
+<!-- Add image links or paths to your /assets folder -->
+| Feature         | Preview                  |
+|----------------|--------------------------|
+| Example Title  | ![screenshot](assets/demo.png) |
+
+---
+
+## Results
+
+<!-- Add key metrics, charts, or model performance --> 
+<!-- Example: Accuracy: 91.4%, F1 Score: 0.89 -->
+
+---
+
+
+## Getting Started
 
 ```bash
-# Clone the repo
 git clone https://github.com/yourusername/project-name.git
-
-# Create virtual environment
+cd project-name
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-
-# Install dependencies
+source venv/bin/activate
 pip install -r requirements.txt
-
-# Run the app
-streamlit run app.py  # or uvicorn main:app --reload for FastAPI
+streamlit run app.py
