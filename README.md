@@ -53,9 +53,9 @@
 ## Screenshots
 
 <!-- Add image links or paths to your /assets folder -->
-| Feature         | Preview                  |
+<!-- | Feature         | Preview                  |
 |----------------|--------------------------|
-| Example Title  | ![screenshot](assets/demo.png) |
+| Example Title  | ![screenshot](assets/demo.png) | -->
 
 ---
 
